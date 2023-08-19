@@ -1,0 +1,55 @@
+.header {
+    background-color: darkblue;
+}
+
+.banner img {
+    width: 280px;
+    height: 280px;
+    float: left;
+    padding: 0px 30px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
+/* Design du titre */
+.titre {
+    background-color: black;
+    color: white;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Design des produits */
+.produits {
+    background-color: blue;
+}
+
+.detail-produit img {
+    width: 280px;
+}
+
+.detail-produit {
+    float: left;
+    background-color: darkblue;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.3em;
+    
+}
+.description button{
+    font-size: 1.3em;
+    background-color: white;
+    color: darkblue;
+}
+.description button:hover {
+background-color: darkblue;
+color: white;
+cursor: pointer;
+
+}
